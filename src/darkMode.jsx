@@ -11,7 +11,7 @@ function DarkMode() {
     }
 
     return (
-        <div style = "appStyle">
+        <div style = {appStyle}>
         <h1>{darkMode ? 'Dark Mode' : 'Light Mode '}</h1>
             <button onClick = { () => setDarkMode(!darkMode)}> Toggle Dark Mode</button>
         </div>
