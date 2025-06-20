@@ -1,9 +1,10 @@
-import useState from 'react';
+import {useState} from 'react';
 import './App.css';
+
 function DarkMode() {
     const [darkMode , setDarkMode] = useState(false);
     const appStyle = {
-        backGroundColor: darkMode ? '#333' : '#fff',
+        backgroundColor: darkMode ? '#333' : '#fff',
         color: darkMode ? '#fff' : '#000',
         height: '100vh',
         display: 'flex',
