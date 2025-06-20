@@ -6,7 +6,7 @@ function DarkMode() {
     const appStyle = {
         backgroundColor: darkMode ? '#333' : '#fff',
         color: darkMode ? '#fff' : '#000',
-        height: '100vh',
+        height: '100px',
         display: 'flex',
         textAlign: 'center'
     }
