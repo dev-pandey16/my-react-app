@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import DarkMode from './darkMode'
 import './App.css'
 import Counter from './counter'
 
@@ -10,6 +10,7 @@ function App() {
     <>
     <h1>react Counter</h1>
     <Counter count={count} setCount={setCount} />
+    <DarkMode />
     </>
 
   )

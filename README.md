@@ -1,16 +1,27 @@
+
+
+There is currently no content or visible conflict markers in `/c:/Users/dev.pandey/my-react-app/README.md`. If you are resolving a merge conflict, look for sections like:
+
+```
 <<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Your changes here
 =======
-# my-react-app
->>>>>>> 8a284d735b307351acdc7d27744bb865c413db81
+Incoming changes here
+>>>>>>> branch-name
+```
+
+To resolve:
+1. Decide which content to keep (or combine both).
+2. Remove the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).
+3. Save the file.
+
+Example resolved content:
+
+```markdown
+# My React App
+
+Welcome to your project!
+```
+
+If you paste the conflicted content here, I can help rewrite it.
+
