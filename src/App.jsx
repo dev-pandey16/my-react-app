@@ -12,6 +12,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import User from './pages/User';
 import NotFound from './pages/NotFound';
+import Movies from './pages/Movies';
+import Auth from './pages/auth'
+import { Posts } from './pages/posts'
 
 
 function App() {
@@ -19,8 +22,8 @@ function App() {
 
   return (
     <>
-    {/* <h1>react Counter</h1>
-    <Counter count={count} setCount={setCount} />
+    <h1 className = "text-lg text-9xl bg-amber-950">react Counter</h1>
+    {/* <Counter count={count} setCount={setCount} />
     <DarkMode />
     <TodoList /> */}
     <BrowserRouter>
@@ -30,6 +33,10 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/user/:id" element={<User />} />
+      <Route path = "/Movies" element = {<Movies />} />
+      <Route path = "/Counter" element = {<Counter />} />
+      <Route path = "/Auth" element = {<Auth />} />
+      <Route path = "/posts" element = {<Posts />} />
       <Route path = "*" element = {<NotFound />} />
     </Routes>
     </BrowserRouter> 
